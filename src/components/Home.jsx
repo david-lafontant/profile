@@ -12,7 +12,7 @@ export const Home = () => {
     };
 
     return (
-        <div className="px-4 py-5 my-5 text-center">
+        <div className="px-4 py-5 my-5 text-center" id="home">
             <h1 className="display-3 fw-bold text-body-emphasis">I&apos;m David</h1>
             <div className="col-lg-6 mx-auto">
                 <p className="lead mb-4">
