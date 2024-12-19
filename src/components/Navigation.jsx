@@ -9,7 +9,7 @@ export const Navigation = () => {
 
     return (
 
-        <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation">
+        <nav className="navbar navbar-expand-lg fixed-top" aria-label="Main navigation" id="siteNavigation">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">Lafontant</a>
                 <button className="navbar-toggler p-0 border-0"
@@ -18,7 +18,7 @@ export const Navigation = () => {
                     aria-label="Toggle navigation"
                     onClick={handleClick}
                 >
-                    <span className="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon navToggler"></span>
                 </button>
 
                 <div className={menuOpen ? "navbar-collapse offcanvas-collapse open" : "navbar-collapse offcanvas-collapse"} id="profileNavbar" >
