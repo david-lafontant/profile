@@ -9,7 +9,7 @@ const data = [
         title: "project 1",
         description: "lorem ipsum dolor",
         github: "https://www.github.com",
-        linkedin: "https://www.linkedin.com",
+        live: "https://www.live.com",
         stack: ['html', 'css', 'javascript'],
         picture: img1
     },
@@ -18,7 +18,7 @@ const data = [
         title: "project 2",
         description: "lorem 2ipsum dolor",
         github: "https://www.github.com",
-        linkedin: "https://www.linkedin.com",
+        live: "https://www.live.com",
         stack: ['ruby', 'css', 'javascript'],
         picture: img2
     },
@@ -28,35 +28,35 @@ const data = [
         title: "project 3",
         description: "lorem 3ipsum dolor",
         github: "https://www.github.com",
-        linkedin: "https://www.linkedin.com",
+        live: "https://www.live.com",
         stack: ['ruby on rails', 'css', 'javascript'],
         picture: img3
     },
     {
-        id: 1,
+        id: 4,
         title: "project 1",
         description: "lorem ipsum dolor",
         github: "https://www.github.com",
-        linkedin: "https://www.linkedin.com",
+        live: "https://www.live.com",
         stack: ['html', 'css', 'javascript'],
         picture: img1
     },
     {
-        id: 2,
+        id: 5,
         title: "project 2",
         description: "lorem 2ipsum dolor",
         github: "https://www.github.com",
-        linkedin: "https://www.linkedin.com",
+        live: "https://www.live.com",
         stack: ['ruby', 'css', 'javascript'],
         picture: img2
     },
 
     {
-        id: 3,
+        id: 6,
         title: "project 3",
         description: "lorem 3ipsum dolor",
         github: "https://www.github.com",
-        linkedin: "https://www.linkedin.com",
+        live: "https://www.live.com",
         stack: ['ruby on rails', 'css', 'javascript'],
         picture: img3
     }
