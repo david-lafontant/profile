@@ -1,13 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import data from '../utils/data'
-import { use } from 'react'
+import Project from './Project';
 
 
 export const Projects = () => {
-    const [projects, setProject] = useState(data)
-
-
+    const [projecstList, setProjectsList] = useState(data)
+    
     return (
-        <div>Projects</div>
+        <div className='container '>
+            <div className="row align-items-center justify-content-center">
+            {projecstList.map(elem=><Project key={elem.id} item={elem} />)}
+            </div>
+        </div>
     )
 }
