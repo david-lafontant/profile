@@ -4,7 +4,7 @@ import profile from '../assets/profile-pic-2.png';
 export const About = () => {
     return (
 
-        <div className="container my-5">
+        <div className="container my-5" id="about">
             <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
                 <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <h1 className="display-3 fw-bold lh-1 text-body-emphasis">Your success, my passion!</h1>
