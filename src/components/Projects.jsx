@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import data from '../utils/data'
+import { v4 as uuidv4 } from "uuid";
+import data from '../utils/data';
 import Project from './Project';
 
 
@@ -9,7 +10,7 @@ export const Projects = () => {
     return (
         <div className='container '>
             <div className="row align-items-center justify-content-center">
-            {projecstList.map(elem=><Project key={elem.id} item={elem} />)}
+            {projecstList.map(elem=><Project key={uuidv4()} item={elem} />)}
             </div>
         </div>
     )
