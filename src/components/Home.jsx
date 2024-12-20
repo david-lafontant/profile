@@ -29,13 +29,13 @@ export const Home = () => {
                 </ul>
                 <ul className='d-md-flex gap-3 justify-content-center align-items-sm-center'>
                     <li className='list-unstyled'>
-                        <button onClick={onButtonClick} className='btn button-5'><i class="bi bi-file-earmark-person"></i>RESUME</button>
+                        <button onClick={onButtonClick} className='btn button-5'><i className="bi bi-file-earmark-person"></i>RESUME</button>
                     </li>
                     <li className='list-unstyled'>
-                        <a href="https://www.linkedin.com/in/david-lafontant/" target='_blank' className='btn button-5'><i class="bi bi-linkedin"></i>LINKEDIN</a>
+                        <a href="https://www.linkedin.com/in/david-lafontant/" target='_blank' className='btn button-5'><i className="bi bi-linkedin"></i>LINKEDIN</a>
                     </li>
                     <li className='list-unstyled'>
-                        <a href="https://github.com/david-lafontant" target='_blank' className='btn button-5'><i class="bi bi-github"></i>GITHUB</a>
+                        <a href="https://github.com/david-lafontant" target='_blank' className='btn button-5'><i className="bi bi-github"></i>GITHUB</a>
                     </li>
                 </ul>
             </div>
