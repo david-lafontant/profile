@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/profile-pic-2.png';
+import profile from '../assets/images/profile-pic-2.png';
 
 export const About = () => {
     return (
