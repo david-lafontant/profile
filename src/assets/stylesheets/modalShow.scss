@@ -1,0 +1,14 @@
+.modalShow{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
